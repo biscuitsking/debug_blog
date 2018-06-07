@@ -1,0 +1,3 @@
+when install bcolz 
+erros ：gcc: error trying to exec 'cc1plus': execvp: 没有那个文件或目录
+solution： make gcc and g++ the same version
