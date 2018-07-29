@@ -1,0 +1,10 @@
+module 'torchvision.transforms' has no attribute 'Resize'
+部分版本torchvision没有resize
+conda更新torchvision
+Unable to determine SOCKS version from socks://127.0.0.1:1080/
+由于vpn无法连接
+export all_proxy="socks5://127.0.0.1:1080" 解决
+conda update torchvision
+清华的源最新版本低
+换回默认的源conda config --remove-key channels
+解决
