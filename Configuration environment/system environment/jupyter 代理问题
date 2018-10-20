@@ -1,0 +1,6 @@
+# juputer notebook 代理问题
+关闭代理并删除
+import os
+for k in list(os.environ.keys()):
+    if k.lower().endswith('_proxy'):
+        del os.environ[k]
